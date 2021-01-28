@@ -1,0 +1,28 @@
+{
+  "name": "mytool",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ Watermalen --darwin --out ./watermalen ----app-version 1.4.0 --overwrite --icon=./icon.ico"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
+}
